@@ -10,6 +10,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient( blue, lightblue);
+}
+
+.n-shadow {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 125px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cube-3d{
@@ -39,6 +49,7 @@ body{
     backface-visibility: initial;
     color: white;
     font-size: 3em;
+    box-shadow: inset 1px 1px 20px white;
 }
 
 .front{
