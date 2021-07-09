@@ -14,8 +14,8 @@ body{
 }
 
 .n-shadow {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     box-shadow: 0px 0px 125px white;
     display: flex;
     justify-content: center;
@@ -23,8 +23,8 @@ body{
 }
 
 .cube-3d{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     transform-style: preserve-3d;
     transform: rotate3d(1, 1, 1, 70deg);
     animation: anim 3s linear infinite;
@@ -39,7 +39,7 @@ body{
     }
 }
 
-.face{
+.cube-3d .face{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,26 +54,26 @@ body{
 
 .front{
     background: rgba(0, 203, 218, 0.7);
-    transform: translateZ(50px);
+    transform: translateZ(100px);
 }
 .back{
     background: rgba(1, 190, 204, 0.7);
-    transform: rotateY(180deg) translateZ(50px);
+    transform: rotateY(180deg) translateZ(100px);
 }
 .right{
     background: rgba(2, 178, 190, 0.7);
-    transform: rotateY(-90deg) translateZ(50px);
+    transform: rotateY(-90deg) translateZ(100px);
 }
 .left{
     background: rgba(2, 178, 190, 0.7);
-    transform: rotateY(90deg) translateZ(50px);
+    transform: rotateY(90deg) translateZ(100px);
 }
 
 .top{
     background: rgba(1, 151, 161, 0.7);
-    transform: rotateX(90deg) translateZ(50px);
+    transform: rotateX(90deg) translateZ(100px);
 }
 .bottom{
     background: rgba(0, 135, 145, 0.7);
-    transform: rotateX(-90deg) translateZ(50px);
+    transform: rotateX(-90deg) translateZ(100px);
 }
